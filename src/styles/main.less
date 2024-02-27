@@ -1,0 +1,59 @@
+@import url(config/reset.less);
+@import url(config/container.less);
+@import url(config/variaveis.less);
+
+body {
+    background-color: @cor_fundo;
+    color: white;
+}
+
+h1 {
+    font-family: "Oleo Script", system-ui;
+    font-size: 4em;
+    text-align: center;
+    margin-top: 1em;
+}
+
+form div {
+    margin: 16px auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+input {
+    display: block;
+    text-align: center;
+    padding: 0.5em 1em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 8px solid white;
+    font-size: 1.2em;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    margin-top: .5em;
+    margin: 10px auto;
+    
+}
+button {
+    display: block;
+    background-color: @cor_btn;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    font-size: 1.5em;
+    margin: 1em auto;
+    
+}
+.resultado {
+    display: none;
+    text-align: center;
+    border: 8px dotted white;
+    padding: 2em;
+    font-size: 1.5em;
+}
+#resultado_sorteio{
+    display: block;
+    margin-top: .5em;
+    font-size: 1.5em;
+
+}
